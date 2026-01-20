@@ -45,15 +45,15 @@ jobs:
 
       - name: Install JDK 8
         run: |
-          brew install --cask temurin8
+          brew install --cask temurin@8
 
       - name: Install JDK 17
         run: |
-          brew install --cask temurin17
+          brew install --cask temurin@17
 
       - name: Install JDK 21
         run: |
-          brew install --cask temurin21
+          brew install --cask temurin@21
           
       - name: Get gl4es latest commit hash
         id: gl4es-sha
